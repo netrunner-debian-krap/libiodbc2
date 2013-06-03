@@ -15,7 +15,8 @@ Homepage: http://www.iodbc.org/
 Package: iodbc
 Section: misc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends} 
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: GTK+ config frontend for the iODBC Driver Manager
  The iODBC (intrinsic Open Database Connectivity) driver manager is compatible
  with the ODBC 2.x and 3.x specification and performs all the jobs of a
@@ -33,7 +34,8 @@ Description: GTK+ config frontend for the iODBC Driver Manager
 Package: libiodbc2
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends} 
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: iodbc (= ${binary:Version})
 Description: iODBC Driver Manager
  The iODBC (intrinsic Open Database Connectivity) driver manager is compatible
@@ -52,8 +54,7 @@ Description: iODBC Driver Manager
 Package: libiodbc2-dev
 Section: libdevel
 Architecture: any
-Depends: libiodbc2 (= ${binary:Version}), 
- ${misc:Depends} 
+Depends: libiodbc2 (= ${binary:Version}), ${misc:Depends}
 Conflicts: libiodbc2 (<= 3.52.6-1), iodbc (<= 3.52.6-1)
 Description: iODBC Driver Manager (development files)
  The iODBC (intrinsic Open Database Connectivity) driver manager is compatible

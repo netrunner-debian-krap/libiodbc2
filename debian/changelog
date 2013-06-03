@@ -8,6 +8,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * Add symbols files.
   * Update install files for multi-arch.
   * Update install files.
+  * Add Pre-Depends for multi-arch.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
 
