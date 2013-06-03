@@ -11,6 +11,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * Add Pre-Depends for multi-arch.
   * Update lintian-overrides.
   * Remove duplicate section field.
+  * Update libiodbc2-dev install file, remove private libraries.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
 
