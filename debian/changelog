@@ -1,3 +1,9 @@
+libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
+
 libiodbc2 (3.52.7-3) unstable; urgency=low
 
   * QA upload.
