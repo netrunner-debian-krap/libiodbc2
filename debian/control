@@ -5,12 +5,9 @@ Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>,
            Sune Vuorela <sune@debian.org>
 Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
                autotools-dev,
-               libtool (>= 1.5-2),
-               automake1.9,
-               autoconf,
-               cdbs,
-               m4 (>= 1.4.7),
+               pkg-kde-tools,
                libgtk2.0-dev
 Standards-Version: 3.8.0
 Homepage: http://www.iodbc.org/

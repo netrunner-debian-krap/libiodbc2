@@ -3,6 +3,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * New upstream release.
   * New maintainer. (Closes: #509815)
   * Bump debhelper build-dep and compat to 9.
+  * Migrate packaging to dh.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
 
