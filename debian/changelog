@@ -9,6 +9,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * Update install files for multi-arch.
   * Update install files.
   * Add Pre-Depends for multi-arch.
+  * Update lintian-overrides.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
 
