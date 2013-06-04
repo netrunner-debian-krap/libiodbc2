@@ -1,4 +1,4 @@
 debian/tmp/usr/bin/iodbc-config
-debian/tmp/usr/include/*.h
+debian/tmp/usr/include/iodbc/*.h
 debian/tmp/usr/lib/*/libiodbc.so
 debian/tmp/usr/lib/*/libiodbcinst.so
