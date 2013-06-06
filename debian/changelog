@@ -1,4 +1,4 @@
-libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
+libiodbc2 (3.52.8-1) experimental; urgency=low
 
   * New upstream release.
   * New maintainer. (Closes: #509815)
@@ -16,7 +16,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * Install pkgconfig file.
   * Add Multi-Arch: same to libiodbc2.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jun 2013 09:06:37 +0200
 
 libiodbc2 (3.52.7-3) unstable; urgency=low
 
