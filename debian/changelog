@@ -13,6 +13,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * Remove duplicate section field.
   * Update libiodbc2-dev install file, remove private libraries.
   * Change includedir to avoid conflicts.
+  * Install pkgconfig file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
 
