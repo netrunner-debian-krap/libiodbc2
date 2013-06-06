@@ -14,6 +14,7 @@ libiodbc2 (3.52.8-1) UNRELEASED; urgency=low
   * Update libiodbc2-dev install file, remove private libraries.
   * Change includedir to avoid conflicts.
   * Install pkgconfig file.
+  * Add Multi-Arch: same to libiodbc2.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Jun 2013 13:05:31 +0200
 
