@@ -1,8 +1,9 @@
 #!/usr/bin/make -f
-export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
-
 %:
 	dh $@ --parallel --with autoreconf,pkgkde_symbolshelper
+
+override_dh_autoreconf:
+	dh_autoreconf --as-needed
 
 override_dh_auto_configure:
 	dh_auto_configure -- --includedir='$${prefix}/include/iodbc'
