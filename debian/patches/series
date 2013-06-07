@@ -4,3 +4,4 @@ admin-compile
 04_bug501100.diff
 05_unicode_includes.diff
 06_add_system_dir.diff
+full_path_wont_match_local_rule.diff

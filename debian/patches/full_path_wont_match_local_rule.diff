@@ -1,0 +1,20 @@
+commit 1aaf73ad6051b012d42b41a3fc5fae85c13fdba0
+Author: Maximiliano Curia <maxy@debian.org>
+Date:   Fri Jun 7 19:33:21 2013 +0200
+
+    Full path wont match local rule.
+
+diff --git a/iodbcadm/Makefile.am b/iodbcadm/Makefile.am
+index eafc7c7..4a919b8 100644
+--- a/iodbcadm/Makefile.am
++++ b/iodbcadm/Makefile.am
+@@ -117,8 +117,8 @@ libiodbcadm_la_SOURCES	= \
+ 
+ iodbcadm_gtk_SOURCES	=
+ iodbcadm_gtk_LDADD	= \
++	libiodbcadm.la \
+ 	../iodbcadm/gtk/main.lo \
+-	../iodbcadm/libiodbcadm.la \
+ 	../iodbcinst/libiodbcinst.la \
+ 	../iodbc/libiodbc.la \
+ 	@GTK_LIBS@
