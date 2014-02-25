@@ -1,3 +1,9 @@
+libiodbc2 (3.52.8-3) UNRELEASED; urgency=medium
+
+  * Add vcs control fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 25 Feb 2014 08:49:06 +0100
+
 libiodbc2 (3.52.8-2) experimental; urgency=low
 
   * New patch: full_path_wont_match_local_rule.diff.
