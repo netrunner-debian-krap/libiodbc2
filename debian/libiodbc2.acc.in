@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    3.52.8
+</version>
+
+<headers>
+    /usr/include/iodbc
+</headers>
+
+<libs>
+    /usr/lib/${DEB_HOST_MULTIARCH}/libiodbc.so
+    /usr/lib/${DEB_HOST_MULTIARCH}/libiodbcinst.so
+</libs>
+
+</descriptor>

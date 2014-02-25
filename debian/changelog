@@ -3,6 +3,7 @@ libiodbc2 (3.52.8-3) UNRELEASED; urgency=medium
   * Add vcs control fields.
   * Bump Standards-Version to 3.9.5.
   * Prepare package for unstable. (Closes: #715086, #724405)
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 25 Feb 2014 08:49:06 +0100
 
