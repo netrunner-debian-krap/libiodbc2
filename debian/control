@@ -8,7 +8,7 @@ Build-Depends: autotools-dev,
                dh-autoreconf,
                libgtk2.0-dev,
                pkg-kde-tools
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.iodbc.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/krap/libiodbc2.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/libiodbc2.git
