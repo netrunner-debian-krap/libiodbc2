@@ -1,15 +1,14 @@
 Add a system dir to be able to load drivers from a system dir without having a full
 path to the drivers, as it is done nowadays on debian systems
 
-Index: libiodbc2-3.52.7/iodbc/connect.c
+Index: libiodbc2/iodbc/connect.c
 ===================================================================
---- libiodbc2-3.52.7.orig/iodbc/connect.c       2013-05-17 21:03:10.000000000 +0200
-+++ libiodbc2-3.52.7/iodbc/connect.c    2013-05-17 21:10:35.000000000 +0200
-@@ -1085,6 +1085,14 @@
-     }
+--- libiodbc2.orig/iodbc/connect.c	2014-05-09 13:08:22.282851046 +0200
++++ libiodbc2/iodbc/connect.c	2014-05-09 13:08:22.282851046 +0200
+@@ -1088,6 +1088,14 @@
  
    genv = (GENV_t *) pdbc->genv;
-+
+ 
 +#ifdef SYSTEM_DIR
 +  char path_with_multiarch[1024];
 +  if (!(path[0] == '/' || path[0] == '.')) {
@@ -17,6 +16,7 @@ Index: libiodbc2-3.52.7/iodbc/connect.c
 +      path = path_with_multiarch;
 +  }
 +#endif 
- 
++
    /* This will either load the driver dll or increase its reference count */
    hdll = _iodbcdm_dllopen ((char *) path);
+   
