@@ -9,6 +9,7 @@ libiodbc2 (3.52.9-1) UNRELEASED; urgency=medium
   * Delete patch: full_path_wont_match_local_rule.diff, applied
     upstream.
   * Refresh patches.
+  * Add dh-acc lintian-override.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 May 2014 13:02:40 +0200
 

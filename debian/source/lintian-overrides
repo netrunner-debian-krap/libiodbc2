@@ -1,0 +1,2 @@
+# dh-acc is used by autopkgtests, not as a build dependency
+libiodbc2 source: missing-build-dependency-for-dh_-command dh_acc => dh-acc
