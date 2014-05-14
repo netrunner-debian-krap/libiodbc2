@@ -1,4 +1,4 @@
-libiodbc2 (3.52.9-1~) UNRELEASED; urgency=medium
+libiodbc2 (3.52.9-1) unstable; urgency=medium
 
   * Add vcs control fields.
   * Bump Standards-Version to 3.9.5.
@@ -11,7 +11,7 @@ libiodbc2 (3.52.9-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Add dh-acc lintian-override.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 09 May 2014 13:29:56 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 14 May 2014 12:57:11 +0200
 
 libiodbc2 (3.52.8-2) experimental; urgency=low
 
