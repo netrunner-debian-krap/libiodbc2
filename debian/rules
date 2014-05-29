@@ -1,4 +1,9 @@
 #!/usr/bin/make -f
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+export DEB_CFLAGS_MAINT_APPEND = -DSYSTEM_DIR=\"/usr/lib/$(DEB_HOST_MULTIARCH)/odbc\"
+
 %:
 	dh $@ --parallel --with autoreconf,pkgkde_symbolshelper
 
